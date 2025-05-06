@@ -56,4 +56,12 @@ function Product() {
 }
 
 // Render the Product component
-ReactDOM.createRoot(document.getElementById('root')).render(<Product />);
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <>
+        <Product />
+        <Product />
+    </>
+
+
+
+);
