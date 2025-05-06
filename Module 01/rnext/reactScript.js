@@ -1,3 +1,9 @@
-const myElement = React.createElement("div",null,"hello sir i am react");
+const myElement = (
+    <div>
+        <p>
+            Hello
+        </p>
+    </div>
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(myElement);
